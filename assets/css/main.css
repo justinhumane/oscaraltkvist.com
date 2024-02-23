@@ -8,9 +8,17 @@ html {
 
 body {
   font-family: "Outfit", sans-serif;
-  @apply bg-neutral-800 text-slate-300 font-extralight;
+  @apply bg-neutral-100 text-slate-700 font-extralight;
 }
 
 ::selection {
   @apply bg-sky-500;
+}
+
+ul {
+  @apply list-disc list-inside mt-2 mb-2;
+}
+
+.nav-list {
+  @apply list-none mt-2 mb-2;
 }

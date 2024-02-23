@@ -9,3 +9,7 @@ I am a web developer based in Linköping, Sweden. I enjoy long walks in the term
 
 ::Projects
 ::
+
+::Contact
+[hi@oscaraltkvist.com](mailto:hi@oscaraltkvist.com)
+::

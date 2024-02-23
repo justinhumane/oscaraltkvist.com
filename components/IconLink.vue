@@ -3,7 +3,7 @@ defineProps(["name", "href"]);
 </script>
 
 <template>
-  <NuxtLink :to="href">
-    <Icon :name="name" size="2rem" />
-  </NuxtLink>
+  <div>
+    <NuxtLink class="flex items-center gap-2" :to="href"> <Icon :name="name" size="2rem" />{{ href }}</NuxtLink>
+  </div>
 </template>
