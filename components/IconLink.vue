@@ -4,6 +4,8 @@ defineProps(["name", "href"]);
 
 <template>
   <div>
-    <NuxtLink class="flex items-center gap-2" :to="href"> <Icon :name="name" size="2rem" />{{ href }}</NuxtLink>
+    <NuxtLink class="flex items-center gap-2 hover:text-sky-500 tranistion duration-150" :to="href">
+      <Icon :name="name" size="2rem" />{{ href }}</NuxtLink
+    >
   </div>
 </template>
