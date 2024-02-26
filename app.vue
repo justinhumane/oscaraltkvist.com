@@ -1,3 +1,14 @@
+<script setup>
+useSeoMeta({
+  title: "Oscar Altkvist – Web developer",
+  ogTitle: "Oscar Altkvist – Web developer",
+  description:
+    "I am a web developer based in Linköping, Sweden. I enjoy long walks in the terminal and candlelit sessions in VS Code.",
+  ogDescription:
+    "I am a web developer based in Linköping, Sweden. I enjoy long walks in the terminal and candlelit sessions in VS Code.",
+});
+</script>
+
 <template>
   <div id="top" class="min-h-screen">
     <nav class="p-8 flex justify-between items-center sticky top-0 backdrop-blur-sm">
