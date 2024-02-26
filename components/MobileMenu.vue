@@ -24,24 +24,26 @@ import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
         >
           <div class="px-1 py-1">
             <MenuItem v-slot="{ active }">
-              <button
+              <a
+                href="#projects"
                 :class="[
                   active ? 'bg-sky-500 text-white' : 'text-gray-900',
                   'group flex w-full items-center rounded-md px-2 py-2',
                 ]"
               >
                 <span class="text-sky-500 font-bold">/</span>projects
-              </button>
+              </a>
             </MenuItem>
             <MenuItem v-slot="{ active }">
-              <button
+              <a
+                href="#contact"
                 :class="[
                   active ? 'bg-sky-500 text-white' : 'text-gray-900',
                   'group flex w-full items-center rounded-md px-2 py-2',
                 ]"
               >
                 <span class="text-sky-500 font-bold">/</span>contact
-              </button>
+              </a>
             </MenuItem>
           </div>
         </MenuItems>
