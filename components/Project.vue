@@ -12,10 +12,10 @@ defineProps({
   <article class="">
     <Disclosure v-slot="{ open }">
       <DisclosureButton
-        class="uppercase hover:bg-sky-500 transition duration-150 pt-4 pb-3 px-4 w-full text-3xl md:text-5xl font-extralight flex justify-between border-b-2 border-sky-500"
+        class="uppercase hover:bg-sky-500 transition duration-150 pt-4 pb-3 px-4 w-full text-3xl md:text-5xl font-extralight flex justify-between items-center border-b-2 border-sky-500"
       >
         <div class="leading-none">{{ project.title }}</div>
-        <div>
+        <div class="flex items-center">
           <Icon name="bi:chevron-down" :class="open ? 'rotate-180 transform' : ''" class="transition duration-150" />
         </div>
       </DisclosureButton>
