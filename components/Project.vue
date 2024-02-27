@@ -41,6 +41,6 @@ defineProps({
 
 <style>
 h2 {
-  @apply text-7xl font-medium;
+  @apply text-3xl md:text-6xl font-extralight;
 }
 </style>
